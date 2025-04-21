@@ -106,7 +106,7 @@ const Hero = () => {
         >
           {[
             { Icon: Twitter, url: 'https://twitter.com/nashihamm', color: 'hover:text-blue-400' },
-            { Icon: Linkedin, url: 'https://linkedin.com/nashihamm', color: 'hover:text-blue-600' },
+            { Icon: Linkedin, url: 'https://linkedin.com/in/nashihamm', color: 'hover:text-blue-600' },
             { Icon: Github, url: 'https://github.com/nashihamm', color: 'hover:text-purple-600' }
           ].map(({ Icon, url, color }, index) => (
             <motion.a
